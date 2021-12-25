@@ -30,7 +30,7 @@ private static $installed = array (
     'aliases' => 
     array (
     ),
-    'reference' => 'c2fb023278b571c6614eda78dba5650917e8b904',
+    'reference' => '69b9a7fe92300d422f6ac21834580338081f1270',
     'name' => 'nahidhasanlimonlimon/testautodepoloy',
   ),
   'versions' => 
@@ -51,7 +51,7 @@ private static $installed = array (
       'aliases' => 
       array (
       ),
-      'reference' => 'c2fb023278b571c6614eda78dba5650917e8b904',
+      'reference' => '69b9a7fe92300d422f6ac21834580338081f1270',
     ),
     'psr/log' => 
     array (
