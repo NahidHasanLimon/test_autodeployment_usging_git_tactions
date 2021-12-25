@@ -34,3 +34,32 @@ jobs:
 
     # - name: Run test suite
     #   run: composer run-script test
+  deploy:
+
+    runs-on: ubuntu-latest
+
+    steps:
+
+      - name: Checkout
+
+        uses: actions/checkout@v2
+
+      - name: Deployment
+
+        uses: appleboy/ssh-action@main
+
+        with:
+
+          host: ${{ secrets.SSH_HOST }}
+
+          key: ${{ secrets.SSH_PRIVATE_KEY }}
+
+          username: ${{ secrets.SSH_USERNAME }}
+
+          script: |
+
+            cd /var/www/html/test_autodeployment_usging_git_tactions
+
+            git checkout -f 
+
+            git pull
