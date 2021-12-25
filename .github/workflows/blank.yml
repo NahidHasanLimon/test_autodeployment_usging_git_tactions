@@ -58,7 +58,7 @@ jobs:
 
           script: |
 
-            cd /var/www/html/auto_deploy_test
+            cd /var/www/html/test_autodeployment_usging_git_tactions
 
             git checkout -f 
 
