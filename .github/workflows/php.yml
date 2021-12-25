@@ -53,7 +53,7 @@ jobs:
           host: ${{ secrets.SSH_HOST }}
 
           key: ${{ secrets.SSH_PRIVATE_KEY }}
-
+          passphrase: ""
           username: ${{ secrets.SSH_USERNAME }}
 
           script: |
