@@ -8,6 +8,6 @@
     ],
     "license": "MIT",
     "require": {
-        "monolog/monolog": "2.0.*"
+       
     }
 }
